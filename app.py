@@ -3,7 +3,6 @@ from tkinter import ttk
 
 from PIL import Image, ImageTk
 
-image1 = Image.open("formula.jpg")
 root = tk.Tk()
 
 
@@ -39,7 +38,7 @@ def CallBack():
     print(entr2.get())
 
 
-B = tk.Button(root, text="Hello", command=CallBack)
+B = tk.Button(root, text="Посчитать", command=CallBack)
 B.grid(row=4, column=0, columnspan=3)
 
 txt1 = tk.Label(text="Ответ: ")
