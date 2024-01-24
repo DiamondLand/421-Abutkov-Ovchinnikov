@@ -1,5 +1,6 @@
 import math
 import tkinter as tk
+import tkinter.messagebox as mb
 from tkinter import ttk
 
 from PIL import Image, ImageTk
@@ -42,7 +43,12 @@ def CallBack():
     print(var.get())
     print(entr1.get())
     print(entr2.get())
-    x, y = int(entr1.get()), int(entr2.get())
+    try:
+        float(entr1.get())
+        float(entr2.get())
+    except:
+        mb.showerror("Ошибка", "Введите числа")
+    x, y = float(entr1.get()), float(entr2.get())
 
     if x * y > 0:
         if var.get() == 0:
