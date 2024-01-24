@@ -38,6 +38,14 @@ entr3 = tk.Entry(width=20)
 entr3.grid(row=5, column=1)
 
 
+def on_closing():
+    if mb.askokcancel("Quit", "Do you want to quit?"):
+        root.destroy()
+
+
+root.protocol("WM_DELETE_WINDOW", on_closing)
+
+
 def CallBack():
     global var, entr1, entr2, entr3
     print(var.get())
