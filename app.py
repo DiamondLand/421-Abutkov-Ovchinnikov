@@ -44,6 +44,7 @@ def on_closing():
 
 
 root.protocol("WM_DELETE_WINDOW", on_closing)
+root.title("Практическая работа 1")
 
 
 def CallBack():
