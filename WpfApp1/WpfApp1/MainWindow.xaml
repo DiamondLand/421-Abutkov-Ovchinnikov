@@ -1,0 +1,38 @@
+﻿<Window x:Class="ShapeAreaCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Площади фигур" Height="350" Width="500">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <GroupBox Header="Выберите фигуру" Margin="5">
+                <StackPanel>
+                    <RadioButton x:Name="squareRadioButton" Content="Квадрат" Margin="5" Checked="ShapeSelectionChanged"/>
+                    <RadioButton x:Name="circleRadioButton" Content="Круг" Margin="5" Checked="ShapeSelectionChanged"/>
+                    <RadioButton x:Name="rectangleRadioButton" Content="Прямоугольник" Margin="5" Checked="ShapeSelectionChanged"/>
+ 
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Параметры фигуры" Margin="5">
+                <StackPanel>
+                    <StackPanel x:Name="squarePanel" Orientation="Horizontal" Visibility="Collapsed">
+                        <TextBlock Text="Сторона:" Margin="5"/>
+                        <TextBox x:Name="sideTextBox" Margin="5" Width="100"/>
+                    </StackPanel>
+                    <StackPanel x:Name="circlePanel" Orientation="Horizontal" Visibility="Collapsed">
+                        <TextBlock Text="Радиус:" Margin="5"/>
+                        <TextBox x:Name="radiusTextBox" Margin="5" Width="100"/>
+                    </StackPanel>
+                    <StackPanel x:Name="rectanglePanel" Orientation="Horizontal" Visibility="Collapsed">
+                        <TextBlock Text="Длина:" Margin="5"/>
+                        <TextBox x:Name="lengthTextBox" Margin="5" Width="100"/>
+                        <TextBlock Text="Ширина:" Margin="5"/>
+                        <TextBox x:Name="widthTextBox" Margin="5" Width="100"/>
+                    </StackPanel>
+
+                </StackPanel>
+            </GroupBox>
+            <Button x:Name="calculateButton" Content="Вычислить" Margin="5" Click="CalculateButton_Click"/>
+            <TextBlock x:Name="resultTextBlock" Margin="5" Text=""/>
+        </StackPanel>
+    </Grid>
+</Window>
