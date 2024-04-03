@@ -1,0 +1,15 @@
+D:\KipFin\Поддержка и тестирование программных модулей\Programming\TK\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\KipFin\Поддержка и тестирование программных модулей\Programming\TK\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\KipFin\Поддержка и тестирование программных модулей\Programming\TK\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\KipFin\Поддержка и тестирование программных модулей\Programming\TK\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\KipFin\Поддержка и тестирование программных модулей\Programming\TK\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+D:\KipFin\Поддержка и тестирование программных модулей\Programming\TK\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\KipFin\Поддержка и тестирование программных модулей\Programming\TK\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\KipFin\Поддержка и тестирование программных модулей\Programming\TK\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\KipFin\Поддержка и тестирование программных модулей\Programming\TK\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\KipFin\Поддержка и тестирование программных модулей\Programming\TK\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\KipFin\Поддержка и тестирование программных модулей\Programming\TK\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\KipFin\Поддержка и тестирование программных модулей\Programming\TK\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\KipFin\Поддержка и тестирование программных модулей\Programming\TK\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\KipFin\Поддержка и тестирование программных модулей\Programming\TK\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\KipFin\Поддержка и тестирование программных модулей\Programming\TK\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
